@@ -1,0 +1,7 @@
+### Invisible option for dependencies
+config APPZLIBEXAMPLE_DEPENDENCIES
+	bool
+	default y
+	select LIBFLEXOS
+	select LIBZLIB
+	select LIBNEWLIBC

@@ -1,0 +1,2 @@
+$(eval $(call addlib,appzlibexample))
+APPZLIBEXAMPLE_SRCS-y += $(APPZLIBEXAMPLE_BASE)/main.c
